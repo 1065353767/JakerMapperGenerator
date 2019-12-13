@@ -1,0 +1,45 @@
+<idea-plugin>
+  <id>org.jaker.mappergenerator.mybatis.v0.01</id>
+  <name>Jaker's Mapper Generator</name>
+  <version>1.0</version>
+  <vendor email="1065353767@qq.com" url="http://www.baidu.com">CEC</vendor>
+
+  <description><![CDATA[
+     Jaker的个人使用mapper生成工具
+     <br>
+     支持多种格式的sql语句
+     <br>
+     可根据需要灵活勾选
+     <br>
+     <br>
+      <em>刚刚建立项目还没有填充实际内容</em>
+    ]]></description>
+
+  <change-notes><![CDATA[
+      可在此查看插件开发进度
+      <br>
+      <em>2019/12/13   Jaker: v0.01-它还只是一滩精子，刚刚被设出来 </em>
+    ]]>
+  </change-notes>
+
+  <!-- 相关说明，请查看 http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html -->
+  <idea-version since-build="173.0"/>
+  <!-- 请查看 http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+       针对开发不同的产品 -->
+
+  <!-- 取消该注释以在所有产品中启用插件
+  <depends>com.intellij.modules.lang</depends>
+  -->
+
+  <!-- 在此添加你的扩展名 -->
+  <extensions defaultExtensionNs="com.intellij">
+  </extensions>
+
+  <actions>
+  <!-- action用来定义插件的input和output -->
+    <action id = "ShowSelectText" class="org.firststep.helloImComing" text="MapperGeneratorDemo">
+      <add-to-group group-id="WindowMenu" anchor="first"/>
+    </action>
+  </actions>
+
+</idea-plugin>
